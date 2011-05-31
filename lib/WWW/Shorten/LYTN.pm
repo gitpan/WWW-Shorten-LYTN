@@ -46,7 +46,7 @@ sub makeashorterlink {
     my $url = shift or croak 'No URL passed to makeashorterlink';
     my $alias = get("http://lytn.it/api.php?rel=2&link=".$url) or croak('Getting link failed.');
     chomp $alias;
-    return 'http://issm.tk/?a='.$alias;
+    return $alias;
 }
 
 1;
