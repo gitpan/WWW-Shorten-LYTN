@@ -13,7 +13,7 @@ WWW::Shorten::LYTN - Perl interface to LYTN
 
 =head1 DESCRIPTION
 
-A Perl interface to the web site lytn.it.  ISSM simply maintains
+A Perl interface to the web site lytn.it.  lytn simply maintains
 a database of long URLs, each of which has a unique identifier.  lytn.it
 will also track how many hits a URL recieves, but this feature is currently
 unavailable.
